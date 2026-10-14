@@ -1,0 +1,14 @@
+    static constexpr uint16_t NORMAL_QUIET_MOVE              = 0b0000 << 12;
+    static constexpr uint16_t DOUBLE_PAWN_PUSH               = 0b0001 << 12;
+    static constexpr uint16_t QUEEN_SIDE_CASTLE              = 0b0010 << 12;
+    static constexpr uint16_t KING_SIDE_CASTLE               = 0b0011 << 12;
+    static constexpr uint16_t PROMOTE_TO_KNIGHT_QUIET        = 0b0100 << 12;
+    static constexpr uint16_t PROMOTE_TO_BISHOP_QUIET        = 0b0101 << 12;
+    static constexpr uint16_t PROMOTE_TO_ROOK_QUIET          = 0b0110 << 12;
+    static constexpr uint16_t PROMOTE_TO_QUEEN_QUIET         = 0b0111 << 12;
+    static constexpr uint16_t NORMAL_CAPTURE                 = 0b1000 << 12;
+    static constexpr uint16_t EN_PASSANT                     = 0b1001 << 12;
+    static constexpr uint16_t CAPTURE_AND_PROMOTE_TO_KNIGHT  = 0b1100 << 12;
+    static constexpr uint16_t CAPTURE_AND_PROMOTE_TO_BISHOP  = 0b1101 << 12;
+    static constexpr uint16_t CAPTURE_AND_PROMOTE_TO_ROOK    = 0b1110 << 12;
+    static constexpr uint16_t CAPTURE_AND_PROMOTE_TO_QUEEN   = 0b1111 << 12;
